@@ -1,0 +1,379 @@
+
+
+
+nav{
+
+    background-color: rgb(250, 193, 176);
+    height: 6.25rem;
+}
+
+
+
+
+.menu{ 
+    
+    margin: 0rem;
+    padding: 0rem;
+    overflow: hidden;
+    background-color: rgb(250, 193, 176);
+}
+
+.lista1{ 
+    float: right;
+}
+
+.lista1 a{
+    display: block;
+    color: rgb(71, 65, 65);
+    padding: 1.25rem 1.25rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0.625rem;
+
+
+    
+}
+
+h2{
+    color: rgb(71, 65, 65);
+    text-align: center;
+}
+
+table{
+    text-decoration: none;
+}
+
+h3{
+    color: rgb(12, 12, 12);
+    font-style: italic;
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+footer{
+    background-image: url(https://wallpapercave.com/wp/wp7133990.jpg);
+    background-size: cover;
+    
+
+    
+    
+    
+
+}
+
+#price{
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 3px;
+    
+    font-style: italic;
+}
+
+.letrasContacto {
+    color: whitesmoke;
+    text-align: right;
+    font-style: italic;
+    font-size: 1.4rem;
+    margin: 0rem;
+    padding: 2.5rem 2.5rem;   
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#insta{
+    
+        text-decoration: none;
+        color: whitesmoke;
+        text-align: right;
+        font-style: italic;
+        font-size: 22.4px;
+        text-decoration: none;
+    
+    
+    }
+
+
+.fotoPortada{
+    text-align: center;
+    margin-left: 6.25rem;
+    margin-top: 1.5625rem;
+}
+
+.padreFlex{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+#card{
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap:break-word ;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    justify-content: center;
+    border-style:outset ;
+    box-shadow: 0.0625rem 0.0625rem 0.5rem slategray;
+    align-content: space-between;
+    margin: 2.5rem;
+    padding: 2.5rem;
+    width: 38rem;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    }
+
+.seccion2{
+    text-align: center;
+    font-size: 3.125rem;
+    margin: 2.8125rem;
+    padding: 1.25rem;
+    font-family:Arial, Helvetica, sans-serif;
+      
+}
+
+.padreFlex2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+    
+}
+
+
+.seccion3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.125rem;
+}
+
+
+
+
+.letraContacto{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.875rem;
+    color: lavender;
+    text-align-last: center;
+    margin: 0.9375rem;
+    padding: 0.9375rem;
+   
+}
+
+.sobreMi{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.125rem;
+    text-align: center;
+    margin: 1.25rem;
+    padding: 1.25rem;
+    
+}
+
+#contenido{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.875rem;
+    margin-top: 1.875rem;
+    padding: 1.875rem;
+    text-align: center;
+    
+}
+.bienvenidos{
+    text-align: center;
+    font-size: 1.5625rem;
+    margin-top: 1.25rem;
+}
+.seccion1{
+ 
+    background-image: url( https://diseniaco.files.wordpress.com/2014/03/img_0255.jpeg)  ;
+    background-size: cover;
+    height: 28.125rem;
+    
+    text-shadow: 0.25rem 0.25rem 0.25rem  rgb(12, 12, 12);
+    font-size: 1.5625rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 6.25rem;
+    padding: 12.5rem;
+    
+}
+
+.info{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+label{
+    
+    margin-bottom: .5rem;
+    
+}
+
+.formulario{
+    display: block;
+    width: 37.5rem;
+    height: calc(1.5em + .75rem + 2px);
+    margin: auto !important;
+    font-size: 1rem;
+    font-weight: 25rem;
+    line-height: 1.5;
+
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0.0625rem solid #ced4da;
+    border-radius: .25rem;
+    
+   
+    
+    
+    }
+.text{
+    color: snow;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+form{
+    display: block;
+    
+    
+    
+}
+
+.textButton{
+    border: 0.0625rem solid #ced4da;
+    border-radius: .25rem;
+    height: 2.5rem;
+    width: 6.25rem;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.fotoScale{
+    transition: all 300ms;
+    border-radius: 4px;
+    margin: 15px;
+    
+}
+
+.fotoScale:hover{
+    transform: scale(1.15);
+}
+.carousel-item { 
+display: block;
+margin-left: 25rem;
+padding-bottom: 43.75rem;
+
+}
+.sr-only{
+    color: black;
+}
+
+.letraSobreMi{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#btnModal{
+    background-color: #585858; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 15px;
+ }
+
+
+
+.title{
+    text-align: center;
+    color: rgb(71, 65, 65);
+   justify-content: center;
+   
+}
+
+
+
+
+h1 {
+    
+    text-align: center;
+}
+
+.carrito{
+   background-color: rgb(233, 227, 219);
+   text-align: center;
+    padding-top: 100px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    border: 2px black; 
+    box-shadow:  2px 2px black;
+}
+
+@media (max-width: 600px) {
+    .logo{
+        width: 60px;
+        height: 50px;
+    }
+    
+    .menu{
+        
+        width: 400px;
+        font-size: 10px;
+        
+    }
+    .lol{
+        
+        width: 50px;
+        font-size: 1px;
+    }
+    .seccion1{
+        font-size: 9px;
+        height: 200px;
+        margin-left: 0px;
+        
+    }
+    .seccion2{
+        font-size: 15px;
+        margin-left: -60px;
+    }
+
+    .padreFlex{
+        font-size: 10px;
+        margin-left: 2px;
+        flex-direction: column;
+    }
+    
+    #card{
+        width: 270px;
+        margin-left: 20px;
+    }
+
+    .footer{
+        width: 330px;
+    }
+    .letrasContacto{
+        font-size: 10px;
+    }
+    .formulario{
+        width: 230px;
+    }
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
